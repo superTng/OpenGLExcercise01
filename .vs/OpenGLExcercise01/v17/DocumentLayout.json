@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{78ABC991-D67E-456A-8149-2A934A501C7F}|OpenGLExcercise01\\OpenGLExcercise01.vcxproj|F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{78ABC991-D67E-456A-8149-2A934A501C7F}|OpenGLExcercise01\\OpenGLExcercise01.vcxproj|solutionrelative:OpenGLExcercise01\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78ABC991-D67E-456A-8149-2A934A501C7F}|OpenGLExcercise01\\OpenGLExcercise01.vcxproj|F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78ABC991-D67E-456A-8149-2A934A501C7F}|OpenGLExcercise01\\OpenGLExcercise01.vcxproj|solutionrelative:OpenGLExcercise01\\main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.h",
+              "DocumentMoniker": "F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\main.h",
+              "RelativeDocumentMoniker": "OpenGLExcercise01\\main.h",
+              "ToolTip": "F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\main.h",
+              "RelativeToolTip": "OpenGLExcercise01\\main.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-10T13:36:01.198Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "OpenGLExcercise01\\main.cpp",
               "ToolTip": "F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\main.cpp",
               "RelativeToolTip": "OpenGLExcercise01\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAUwBYAAAAMAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-09T15:14:14.096Z",
               "EditorCaption": ""

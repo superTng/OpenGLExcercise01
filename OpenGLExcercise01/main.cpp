@@ -3,6 +3,7 @@
 #define GLEW_STATIC
 #include <GL/glew.h>
 #include<GLFW/glfw3.h>
+#include "main.h"
 
 
 int main()
@@ -34,13 +35,28 @@ int main()
 	}
 	glViewport(0,0,900,600);
 
-	//如果这个窗口没有关闭
+	//如果这个窗口没有关闭 持续刷新当前窗口
 	while (!glfwWindowShouldClose(window))
 	{
-		glfwSwapBuffers(window);
+		processInput(window);//按下 ESC 退出这个窗口
+
+		glClearColor(0.2f,0.3f,0.2f,1.0f);
+		glClear(GL_COLOR_BUFFER_BIT);
+
+		glfwSwapBuffers(window);//draw Window窗口
 		glfwPollEvents();
+
+
 	}
 
 	glfwTerminate();
 	return 0;
+}
+
+void processInput(GLFWwindow* window)
+{
+	if (glfwGetKey(window,GLFW_KEY_ESCAPE) == GLFW_PRESS)
+	{
+		glfwSetWindowShouldClose(window,true);
+	}
 }
