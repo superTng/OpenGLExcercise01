@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "F:\\017_OpenGLProjects\\OpenGLExcercise01\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{78ABC991-D67E-456A-8149-2A934A501C7F}|OpenGLExcercise01\\OpenGLExcercise01.vcxproj|F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\MyTriangle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78ABC991-D67E-456A-8149-2A934A501C7F}|OpenGLExcercise01\\OpenGLExcercise01.vcxproj|solutionrelative:OpenGLExcercise01\\MyTriangle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78ABC991-D67E-456A-8149-2A934A501C7F}|OpenGLExcercise01\\OpenGLExcercise01.vcxproj|F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\MyWindow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78ABC991-D67E-456A-8149-2A934A501C7F}|OpenGLExcercise01\\OpenGLExcercise01.vcxproj|solutionrelative:OpenGLExcercise01\\MyWindow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78ABC991-D67E-456A-8149-2A934A501C7F}|OpenGLExcercise01\\OpenGLExcercise01.vcxproj|F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\MyTriangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78ABC991-D67E-456A-8149-2A934A501C7F}|OpenGLExcercise01\\OpenGLExcercise01.vcxproj|solutionrelative:OpenGLExcercise01\\MyTriangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78ABC991-D67E-456A-8149-2A934A501C7F}|OpenGLExcercise01\\OpenGLExcercise01.vcxproj|F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\MyWindow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78ABC991-D67E-456A-8149-2A934A501C7F}|OpenGLExcercise01\\OpenGLExcercise01.vcxproj|solutionrelative:OpenGLExcercise01\\MyWindow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78ABC991-D67E-456A-8149-2A934A501C7F}|OpenGLExcercise01\\OpenGLExcercise01.vcxproj|F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\MyInput.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78ABC991-D67E-456A-8149-2A934A501C7F}|OpenGLExcercise01\\OpenGLExcercise01.vcxproj|solutionrelative:OpenGLExcercise01\\MyInput.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78ABC991-D67E-456A-8149-2A934A501C7F}|OpenGLExcercise01\\OpenGLExcercise01.vcxproj|F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\MyInput.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78ABC991-D67E-456A-8149-2A934A501C7F}|OpenGLExcercise01\\OpenGLExcercise01.vcxproj|solutionrelative:OpenGLExcercise01\\MyInput.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{78ABC991-D67E-456A-8149-2A934A501C7F}|OpenGLExcercise01\\OpenGLExcercise01.vcxproj|F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{78ABC991-D67E-456A-8149-2A934A501C7F}|OpenGLExcercise01\\OpenGLExcercise01.vcxproj|solutionrelative:OpenGLExcercise01\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -18,32 +42,112 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "main.h",
-              "DocumentMoniker": "F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\main.h",
-              "RelativeDocumentMoniker": "OpenGLExcercise01\\main.h",
-              "ToolTip": "F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\main.h",
-              "RelativeToolTip": "OpenGLExcercise01\\main.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-10T13:36:01.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "main.cpp",
               "DocumentMoniker": "F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\main.cpp",
               "RelativeDocumentMoniker": "OpenGLExcercise01\\main.cpp",
               "ToolTip": "F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\main.cpp",
               "RelativeToolTip": "OpenGLExcercise01\\main.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACsAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-09T15:14:14.096Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyWindow.cpp",
+              "DocumentMoniker": "F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\MyWindow.cpp",
+              "RelativeDocumentMoniker": "OpenGLExcercise01\\MyWindow.cpp",
+              "ToolTip": "F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\MyWindow.cpp",
+              "RelativeToolTip": "OpenGLExcercise01\\MyWindow.cpp",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-11T14:42:21.938Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyTriangle.cpp",
+              "DocumentMoniker": "F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\MyTriangle.cpp",
+              "RelativeDocumentMoniker": "OpenGLExcercise01\\MyTriangle.cpp",
+              "ToolTip": "F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\MyTriangle.cpp",
+              "RelativeToolTip": "OpenGLExcercise01\\MyTriangle.cpp",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-11T15:09:13.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyTriangle.h",
+              "DocumentMoniker": "F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\MyTriangle.h",
+              "RelativeDocumentMoniker": "OpenGLExcercise01\\MyTriangle.h",
+              "ToolTip": "F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\MyTriangle.h",
+              "RelativeToolTip": "OpenGLExcercise01\\MyTriangle.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-11T15:08:45.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyInput.cpp",
+              "DocumentMoniker": "F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\MyInput.cpp",
+              "RelativeDocumentMoniker": "OpenGLExcercise01\\MyInput.cpp",
+              "ToolTip": "F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\MyInput.cpp",
+              "RelativeToolTip": "OpenGLExcercise01\\MyInput.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-11T14:52:12.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyInput.h",
+              "DocumentMoniker": "F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\MyInput.h",
+              "RelativeDocumentMoniker": "OpenGLExcercise01\\MyInput.h",
+              "ToolTip": "F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\MyInput.h",
+              "RelativeToolTip": "OpenGLExcercise01\\MyInput.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-11T14:49:03.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyWindow.h",
+              "DocumentMoniker": "F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\MyWindow.h",
+              "RelativeDocumentMoniker": "OpenGLExcercise01\\MyWindow.h",
+              "ToolTip": "F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\MyWindow.h",
+              "RelativeToolTip": "OpenGLExcercise01\\MyWindow.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-11T14:41:57.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "main.h",
+              "DocumentMoniker": "F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\main.h",
+              "RelativeDocumentMoniker": "OpenGLExcercise01\\main.h",
+              "ToolTip": "F:\\017_OpenGLProjects\\OpenGLExcercise01\\OpenGLExcercise01\\main.h",
+              "RelativeToolTip": "OpenGLExcercise01\\main.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-10T13:36:01.198Z",
               "EditorCaption": ""
             }
           ]
