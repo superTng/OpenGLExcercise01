@@ -37,10 +37,10 @@ void MyWindow::DrawWindow()
 		return;
 	}
 	glViewport(0, 0, 900, 600);
-	glPolygonMode(GL_FRONT_AND_BACK,GL_LINE);
+	//glPolygonMode(GL_FRONT_AND_BACK,GL_LINE);
 	//只画单面 GL_BACK  GL_FRONT
-	//glEnable(GL_CULL_FACE);
-	//glCullFace(GL_BACK);
+	glEnable(GL_CULL_FACE);
+	glCullFace(GL_BACK);
 
 	//开始创建三角形
 	MyTriangle* myTriangle = new MyTriangle();

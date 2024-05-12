@@ -141,12 +141,14 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MyInput.cpp" />
+    <ClCompile Include="MyShader.cpp" />
     <ClCompile Include="MyTriangle.cpp" />
     <ClCompile Include="MyWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h" />
     <ClInclude Include="MyInput.h" />
+    <ClInclude Include="MyShader.h" />
     <ClInclude Include="MyTriangle.h" />
     <ClInclude Include="MyWindow.h" />
   </ItemGroup>
