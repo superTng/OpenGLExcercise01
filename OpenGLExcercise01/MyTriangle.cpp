@@ -5,11 +5,11 @@
 //三角形的顶点数组
 float vertices[] =
 {
-	-0.5f,0.5f,0.0f,
-	0.5f,0.5f,0.0f,
-	0.0f,0.0f,0.0f,
-	-0.5f,-0.5f,0.0f,
-	0.5f,-0.5f,0.0f,
+	-0.5f,0.5f,0.0f,1.0f,0,0,
+	0.5f,0.5f,0.0f,0,1.0f,0,
+	0.0f,0.0f,0.0f,0,0,1.0f,
+	-0.5f,-0.5f,0.0f,0.5f,0.5f,0.5f,
+	0.5f,-0.5f,0.0f,0.5f,0,0.5f,
 };
 
 //三角形的顶点集合
@@ -37,13 +37,14 @@ void MyTriangle::DrawVAO()
 unsigned int VBO;
 unsigned int vertexShader;
 const char* vertexShaderSource =
-"#version 330 core                                 \n"
-"layout (location = 6) in vec3 aPos;               \n"
-"out vec4 vertexColor;                             \n"
-"void main()                                       \n"
-"{gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0); \n"
-"vertexColor=vec4(1.0,0,0,1.0);                    \n"
-"}                                                 \n";
+"#version 330 core                                  \n"
+"layout (location = 6) in vec3 aPos;                \n"
+"layout (location = 7) in vec3 aColor;              \n"
+"out vec4 vertexColor;                              \n"
+"void main()                                        \n"
+"{gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);  \n"
+"vertexColor=vec4( aColor.x,aColor.y,aColor.z,1.0f);\n"
+"}                                                  \n";
 
 
 unsigned int fragmentShader;
@@ -53,7 +54,7 @@ const char* fragmentShaderSource =
 "uniform vec4 ourColor;                      \n"
 "out vec4 FragColor;                         \n"
 "void main()                                 \n"
-"{FragColor = ourColor;}                     \n";
+"{FragColor = vertexColor;}                  \n";
 
 
 unsigned int shaderProgram;
@@ -80,8 +81,10 @@ void MyTriangle::DrawVBO()
 	glAttachShader(shaderProgram, fragmentShader);
 	glLinkProgram(shaderProgram);
 
-	glVertexAttribPointer(6,3,GL_FLOAT,GL_FALSE,3*sizeof(float),(void*)0);
+	glVertexAttribPointer(6,3,GL_FLOAT,GL_FALSE,6 * sizeof(float),(void*)0);
 	glEnableVertexAttribArray(6);
+	glVertexAttribPointer(7, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*) (3*sizeof(float)));
+	glEnableVertexAttribArray(7);
 }
 
 
