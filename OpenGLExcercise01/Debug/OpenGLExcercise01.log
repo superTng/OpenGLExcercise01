@@ -1,3 +1,2 @@
-﻿  MyTriangle.cpp
-F:\017_OpenGLProjects\OpenGLExcercise01\OpenGLExcercise01\MyTriangle.cpp(108,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+﻿  MyShader.cpp
   OpenGLExcercise01.vcxproj -> F:\017_OpenGLProjects\OpenGLExcercise01\Debug\OpenGLExcercise01.exe

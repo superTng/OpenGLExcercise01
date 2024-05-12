@@ -5,12 +5,13 @@
 #include<GLFW/glfw3.h>
 #include "MyInput.h"
 #include "MyTriangle.h"
+#include "MyShader.h"
 
 void MyWindow::DrawWindow()
 {
 	//创建输入类
 	MyInput* myInput = new MyInput(); 
-
+	MyShader* myShader = new MyShader("vertexSource.txt", "fragmentSource.txt");
 
 	printf("开始绘制窗口!");
 	glfwInit();
