@@ -8,7 +8,8 @@
 
 void MyWindow::DrawWindow()
 {
-	MyInput* myInput = new MyInput(); //创建输入类
+	//创建输入类
+	MyInput* myInput = new MyInput(); 
 
 
 	printf("开始绘制窗口!");
@@ -27,7 +28,7 @@ void MyWindow::DrawWindow()
 	}
 	glfwMakeContextCurrent(window);
 
-	//init glew
+	//初始化 glew
 	glewExperimental = true;
 	if (glewInit() != GLEW_OK)
 	{
@@ -36,6 +37,10 @@ void MyWindow::DrawWindow()
 		return;
 	}
 	glViewport(0, 0, 900, 600);
+	glPolygonMode(GL_FRONT_AND_BACK,GL_LINE);
+	//只画单面 GL_BACK  GL_FRONT
+	//glEnable(GL_CULL_FACE);
+	//glCullFace(GL_BACK);
 
 	//开始创建三角形
 	MyTriangle* myTriangle = new MyTriangle();
@@ -43,14 +48,15 @@ void MyWindow::DrawWindow()
 	//如果这个窗口没有关闭 持续刷新当前窗口
 	while (!glfwWindowShouldClose(window))
 	{
-		myInput->ProcessInputKey_GlfwSetWindowShouldClose(window,GLFW_KEY_ESCAPE);//按下 ESC 退出这个窗口
+		//按下 ESC 退出这个窗口
+		myInput->ProcessInputKey_GlfwSetWindowShouldClose(window,GLFW_KEY_ESCAPE);
 
 		glClearColor(0.2f, 0.3f, 0.2f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT);
 
 		myTriangle->GlUseProgram();
 
-		glfwSwapBuffers(window); //draw Window窗口
+		glfwSwapBuffers(window);
 		glfwPollEvents();
 	}
 

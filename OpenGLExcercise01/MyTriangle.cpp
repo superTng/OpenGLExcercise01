@@ -1,18 +1,28 @@
 #include "MyTriangle.h"
 #include <GL/glew.h>
 
+//三角形的顶点数组
 float vertices[] =
 {
+	-0.5f,0.5f,0.0f,
+	0.5f,0.5f,0.0f,
+	0.0f,0.0f,0.0f,
 	-0.5f,-0.5f,0.0f,
 	0.5f,-0.5f,0.0f,
-	0.0f,0.5f,0.0f
 };
 
+//三角形的顶点集合
+unsigned int indices[] = 
+{
+	0,1,2,
+	2,3,4
+};
 
 unsigned int VAO;
 MyTriangle::MyTriangle()
 {
 	DrawVAO();
+	DrawEBO();
 	DrawVBO();
 }
 
@@ -27,7 +37,7 @@ unsigned int VBO;
 unsigned int vertexShader;
 const char* vertexShaderSource =
 "#version 330 core                                 \n"
-"layout (location = 0) in vec3 aPos;               \n"
+"layout (location = 6) in vec3 aPos;               \n"
 "void main()                                       \n"
 "{gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);}\n";
 
@@ -41,6 +51,9 @@ const char* fragmentShaderSource =
 
 
 unsigned int shaderProgram;
+
+
+unsigned int EBO;
 
 void MyTriangle::DrawVBO()
 {
@@ -61,24 +74,28 @@ void MyTriangle::DrawVBO()
 	glAttachShader(shaderProgram, fragmentShader);
 	glLinkProgram(shaderProgram);
 
-	glVertexAttribPointer(0,3,GL_FLOAT,GL_FALSE,3*sizeof(float),(void*)0);
-	glEnableVertexAttribArray(0);
+	glVertexAttribPointer(6,3,GL_FLOAT,GL_FALSE,3*sizeof(float),(void*)0);
+	glEnableVertexAttribArray(6);
 }
 
 
 
 
-unsigned int VCO;
-void MyTriangle::DrawVCO()
+void MyTriangle::DrawEBO()
 {
-	
+	glGenBuffers(1,&EBO);
+	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER,EBO);
+	glBufferData(GL_ELEMENT_ARRAY_BUFFER,sizeof(indices), indices,GL_STATIC_DRAW);
 }
 
 void MyTriangle::GlUseProgram()
 {
 	glBindVertexArray(VAO);
+	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER,EBO);
 	glUseProgram(shaderProgram);
-	glDrawArrays(GL_TRIANGLES, 0, 3);
+	//glDrawArrays(GL_TRIANGLES, 0, 6);
+
+	glDrawElements(GL_TRIANGLES,6,GL_UNSIGNED_INT,0);
 }
 
 

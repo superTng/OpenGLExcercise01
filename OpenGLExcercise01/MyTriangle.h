@@ -6,7 +6,7 @@ public:
 public:
 	void DrawVAO();
 	void DrawVBO();
-	void DrawVCO();
+	void DrawEBO();
 	void GlUseProgram();
 };
 
