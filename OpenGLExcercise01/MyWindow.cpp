@@ -11,7 +11,7 @@ void MyWindow::DrawWindow()
 {
 	//创建输入类
 	MyInput* myInput = new MyInput(); 
-	MyShader* myShader = new MyShader("vertexSource.txt", "fragmentSource.txt");
+	
 
 	printf("开始绘制窗口!");
 	glfwInit();
@@ -40,11 +40,15 @@ void MyWindow::DrawWindow()
 	glViewport(0, 0, 900, 600);
 	//glPolygonMode(GL_FRONT_AND_BACK,GL_LINE);
 	//只画单面 GL_BACK  GL_FRONT
+
+	MyShader* myShader = new MyShader("vertexSource.txt", "fragmentSource.txt");
+
+
 	glEnable(GL_CULL_FACE);
 	glCullFace(GL_BACK);
 
 	//开始创建三角形
-	MyTriangle* myTriangle = new MyTriangle();
+	MyTriangle* myTriangle = new MyTriangle(myShader);
 
 	//如果这个窗口没有关闭 持续刷新当前窗口
 	while (!glfwWindowShouldClose(window))

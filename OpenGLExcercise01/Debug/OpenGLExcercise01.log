@@ -1,2 +1,15 @@
 ﻿  MyShader.cpp
+  MyTriangle.cpp
+  MyWindow.cpp
+  正在生成代码...
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+LINK : warning LNK4217: 符号“___glewBindBuffer”(在“ glew32s.lib(glew.obj)”中定义)已由“MyTriangle.obj”(函数“"public: void __thiscall MyTriangle::DrawEBO(void)" (?DrawEBO@MyTriangle@@QAEXXZ)”中)导入
+LINK : warning LNK4217: 符号“___glewBufferData”(在“ glew32s.lib(glew.obj)”中定义)已由“MyTriangle.obj”(函数“"public: void __thiscall MyTriangle::DrawEBO(void)" (?DrawEBO@MyTriangle@@QAEXXZ)”中)导入
+LINK : warning LNK4217: 符号“___glewGenBuffers”(在“ glew32s.lib(glew.obj)”中定义)已由“MyTriangle.obj”(函数“"public: void __thiscall MyTriangle::DrawEBO(void)" (?DrawEBO@MyTriangle@@QAEXXZ)”中)导入
+LINK : warning LNK4217: 符号“___glewEnableVertexAttribArray”(在“ glew32s.lib(glew.obj)”中定义)已由“MyTriangle.obj”(函数“"public: void __thiscall MyTriangle::DrawVBO(void)" (?DrawVBO@MyTriangle@@QAEXXZ)”中)导入
+LINK : warning LNK4217: 符号“___glewVertexAttribPointer”(在“ glew32s.lib(glew.obj)”中定义)已由“MyTriangle.obj”(函数“"public: void __thiscall MyTriangle::DrawVBO(void)" (?DrawVBO@MyTriangle@@QAEXXZ)”中)导入
+LINK : warning LNK4217: 符号“___glewBindVertexArray”(在“ glew32s.lib(glew.obj)”中定义)已由“MyTriangle.obj”(函数“"public: void __thiscall MyTriangle::DrawVAO(void)" (?DrawVAO@MyTriangle@@QAEXXZ)”中)导入
+LINK : warning LNK4217: 符号“___glewGenVertexArrays”(在“ glew32s.lib(glew.obj)”中定义)已由“MyTriangle.obj”(函数“"public: void __thiscall MyTriangle::DrawVAO(void)" (?DrawVAO@MyTriangle@@QAEXXZ)”中)导入
+glew32s.lib(glew.obj) : warning LNK4099: 未找到 PDB“”(使用“glew32s.lib(glew.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
   OpenGLExcercise01.vcxproj -> F:\017_OpenGLProjects\OpenGLExcercise01\Debug\OpenGLExcercise01.exe
